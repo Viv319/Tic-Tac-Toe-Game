@@ -7,12 +7,14 @@ body{
     background-color: #F8FCDA;
     text-align: center;
 }
+
 h3{
     margin-top: 10px;
 }
+
 .msg-container{
     height: 10vh;
-    width: 100%vh;
+    width: 100%;
     display: flex-wrap;
     justify-content: center;
     align-items: center;    
@@ -24,6 +26,7 @@ h3{
 }
 
 #gamebody{
+    margin-top: 80px;
     height: 60vh;
     width: 60vw;
     display: flex;
@@ -36,12 +39,11 @@ h3{
     height: 60vmin;
     width: 60vmin;
     display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .btn{
-    /* all:unset; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,13 +58,26 @@ h3{
     margin: 1px;
 }
 
-
 #reset{
-    height: 8vmin;
-    width: 8vmin;
+    min-height: 5vmin;
+    min-width: 6vmin;
 } 
 
 #newGame{
-    height: 10vmin;
-    width: 12vmin;
+    min-height: 5vmin;
+    min-width: 10vmin;
+    margin-right: 20px;
+}
+
+#winMessage{
+    margin-bottom: 30px;
+}
+
+#oS, #xS{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 6vmin;
+    gap: 3vmin;
+    color: red;
 }
